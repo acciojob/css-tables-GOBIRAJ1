@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+*{
+	text-align:center;
+}
+#th{
+	background-color:white;
+}
+th,td{
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:0.5rem;
+	
+}
+ tr:nth-child(odd) {
+      background-color: #f2f2f1;
+    }
+
+    tr:nth-child(even) {
+      background-color: #ffffff;
+    }
